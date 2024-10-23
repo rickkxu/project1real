@@ -1,0 +1,121 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.parent {
+    width: 1200px;
+}
+
+#topCard {
+    border: 3px solid;
+    display: flex;
+    padding: 40px;
+    box-shadow: 5px 5px;
+    margin-top: 50px;
+
+}
+
+#projectCards {
+    display: flex;
+    gap: 60px;
+    margin-top: 20px;
+}
+
+#photoCards {
+    display: flex;
+    gap: 60px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 2px solid;
+    box-shadow: 5px 5px;
+    width: 350px;
+    height: 470px;
+    transition: transform 0.1s ease;
+}
+
+.card.pressed {
+    transform: translateY(5px); 
+}
+
+.cardTxt {
+    padding: 10px;
+    height: 100px;
+}
+
+.cardImg {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    object-position: top;
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 70px;
+    margin: 0px;
+}
+
+h2 {
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+a {
+    display: inline-block;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+    color: black;
+}
+
+.date {
+    margin-top: 8px;
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+
+.title {
+    margin-top: 8px;
+    margin-bottom: 0px;
+    font-size: 24px;
+}
+
+.entity {
+    margin-top: 8px;
+    font-size: 18px;
+}
+
+.header {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.cards {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+#socialMedia {
+    padding-top: 10px;
+}
